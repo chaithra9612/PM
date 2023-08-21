@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .logo img{
+            height: 70px;
+            width: 70px;
+            border: 2px black solid;
+            margin:15px;
+            /* display: flex; */
+            /* top: 10px;
+            left: 10px; */
+        }
+        .NavBar{
+            height: 100px;
+            width: 100%;
+            background-color: coral;
+            /* display: flex; */
+            backdrop-filter: blur(5px);
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top:0px;
+            z-index: 80;
+            /* position:fixed ; */
+        }
+        .navbar navItems{
+            position: flex;
+            left: 80px;
+        }
+        .r{
+            height: 610px;
+            width: 100%;
+            background-color: aquamarine;
+            position: flex;
+            background-image: url(https://i.pinimg.com/originals/1a/e6/7e/1ae67e8f6303b0cfe99e6c35d31525cb.gif);
+            -webkit-background-clip: content-box;
+            /* background: 100%; */
+        }
+        .moveBox{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            position: absolute;
+            top: 470px;
+            border-radius: 20px;
+            transition: all 3s ease;
+            animation: move 3s ease;
+        }
+        @keyframes move{
+            0%{
+                left:0px;
+                top:475px
+            }
+            25%{
+                top:100px;
+                left:280px;
+            }
+            50%{
+                left:600px;
+                top:475px;
+            }
+            75%{
+                top: 100px;
+                left:780px;
+            }
+            100%{
+                top:475px;
+                left: 1220px;
+            }
+        }
+        .earing{
+            height: 100vh;
+            width: 100%;
+
+        }
+        .eh1{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(84, 209, 109);
+            font-size: 50px;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+        }
+        .eimg{
+            height: 550px;
+            width: 100%;
+
+        }
+        .eimg img{
+            height: 200px;
+            width: 250px;
+            margin: 20px;
+        }
+        .eimg img:hover{
+            height: 230px;
+            width: 230px;
+            transform: scale(1.2);
+            transition: all .5s ease-in-out;
+            border-radius: 10px;
+            /* display: flex; */
+        }
+        .bangles{
+            height: 100vh;
+            width: 100%;
+        }
+        .bh1{
+            height: 100px;
+            width: 100%;
+            background-color: darkmagenta;
+            font-size: 50px;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+        }
+        .bimg{
+            height: 550px;
+            width: 100%;
+
+        }
+        .bimg img{
+            height: 200px;
+            width: 250px;
+            margin: 20px;
+        }
+        .bimg img:hover{
+            height: 230px;
+            width: 230px;
+            transform: scale(1.2);
+            transition: all .5s ease-in-out;
+            border-radius: 10px;
+        }
+        .necklace{
+            height: 100vh;
+            width: 100%;
+        }
+        .nh1{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(176, 75, 66);
+            font-size: 50px;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+        }
+        .nimg{
+            height: 550px;
+            width: 100%;
+
+        }
+        .nimg img{
+            height: 230px;
+            width: 250px;
+            margin: 20px;
+        }
+        .nimg img:hover{
+            height: 260px;
+            width: 260px;
+            transform: scale(1.2);
+            transition: all .5s ease-in-out;
+            border-radius: 10px;
+        }
+        .ring{
+            height: 100vh;
+            width: 100%;
+        }
+        .rh1{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(224, 227, 22);
+            font-size: 50px;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+        }
+        .rimg{
+            height: 550px;
+            width: 100%;
+
+        }
+        .rimg img{
+            height: 230px;
+            width: 250px;
+            margin: 20px;
+        }
+        .rimg img:hover{
+            height: 260px;
+            width: 260px;
+            transform: scale(1.2);
+            transition: all .5s ease-in-out;
+            border-radius: 10px;
+        }
+    </style>
+    
+    
+</head>
+<body>
+<div class="HP">
+    <nav class="NavBar">
+        <div class="logo">
+           <img src="JEWELLOGO1.jpg" alt="">
+        </div>
+        <div class="navItems">
+           <a href="#ear">EARING</a>
+           <a href="#ban">BANGLES</a>
+           <a href="#neck">NECKLACE</a>
+           <a href="#ri">RINGS</a>
+        </div>
+    </nav>
+ <div>
+    <div class="r">
+          <div class="moveBox"> <img src="ani.jpg" alt=""></div>
+    </div>
+  </div> 
+
+    <!-- earing starts -->
+     <div class="earing" id="ear">
+        <div class="eh1">
+        <h1>EARINGS</h1>
+     </div>
+     <div class="eimg">
+        <img src="e1.jpg" alt="">
+        <img src="e2.jpg" alt="">
+        <img src="e3.jpg" alt="">
+        <img src="e4.jpg" alt="">
+        <img src="e5.jpg" alt="">
+        <img src="e6.jpg" alt="">
+        <img src="e7.jpg" alt="">
+        <img src="e8.jpg" alt="">
+        <img src="e9.jpg" alt="">
+        <img src="e10.webp" alt="">
+     </div>
+    
+     </div>
+      
+    <!-- earing ends -->
+
+    <!-- bangle start -->
+    <div class="bangles" id="ban">
+       <div class="bh1">
+             <h1>BANGLES</h1>
+       </div>
+       <div class="bimg">
+            <img src="b1.jpg" alt="">
+            <img src="b10.jpg" alt="">
+            <img src="b2.jpg" alt="">
+            <img src="b9.jpg" alt="">
+            <img src="b3.jpg" alt="">
+            <img src="b8.jpg" alt="">
+            <img src="b4.jpg" alt="">
+            <img src="b7.jpg" alt="">
+            <img src="b5.jpg" alt="">
+            <img src="b6.jpg" alt="">
+        </div>
+    </div>
+    <!-- bangle end -->
+
+    <!-- necklace start -->
+    <div class="necklace" id="neck">
+        <div class="nh1">
+              <h1>NECKLACE</h1>
+        </div>
+        <div class="nimg">
+             <img src="n1.jpg" alt="">
+             <img src="n10.jpg" alt="">
+             <img src="n2.webp" alt="">
+             <img src="n9.jpg" alt="">
+             <img src="n3.webp" alt="">
+             <img src="n8.webp" alt="">
+             <img src="n4.jpg" alt="">
+             <img src="n9.jpg" alt="">
+             <img src="n5.jpeg" alt="">
+             <img src="n6.webp" alt="">
+         </div>
+     </div>
+     <!-- bangle end -->
+
+     <!-- ring start -->
+    <div class="ring" id="ri">
+        <div class="rh1">
+              <h1>RING</h1>
+        </div>
+        <div class="rimg">
+             <img src="r1.jpg" alt="">
+             <img src="r2.jpg" alt="">
+             <img src="r3.jpg" alt="">
+             <img src="r4.jpg" alt="">
+             <img src="r5.jpg" alt="">
+             <img src="r6.jpeg" alt="">
+             <img src="r7.webp" alt="">
+             <img src="r8.jpg" alt="">
+             <img src="r9.jpg" alt="">
+             <img src="r10.jpg" alt="">
+         </div>
+     </div>
+     <!-- ring end -->
+  
+    
+</body>
+</html>
